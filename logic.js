@@ -5,7 +5,7 @@ $(document).ready(function() {
     var count=0;
     $.getJSON('data.json', function(jsonData) {
         addedJob=jsonData;
-        sortJobs();
+        //sortJobs();
         console.log("Added Jobs",addedJob);
         display(jsonData);
     console.log("Jsondata",jsonData);
@@ -267,7 +267,7 @@ function Createform() {
     var logoUrlLabel = $('<label>Logo URL:</label>');
       var logoUrlInput = '<input type="url" name="logoUrl" class="myinput" required />';
 
-      form.append(logoUrlLabel,logoUrlInput);
+      form.append($('<br>'),logoUrlLabel,logoUrlInput);
     formDiv.append(form);
     $('.MainBox').append(formDiv);
 }
@@ -314,7 +314,7 @@ $('.MainBox').on('submit', '#jobForm', function(e) {
     addedJob.push(newJob);
     $('.form').remove(); 
     $('.MainBox').children().not('#addJob').remove();
-   sortJobs();
+  //  sortJobs();
     display(addedJob);
     console.log('jobadded', addedJob);
 });
@@ -369,7 +369,7 @@ function Popup() {
 
 
 
-function sortJobs() {
+/* function sortJobs() {
     addedJob.sort((a, b) => {
         if (a.featured && a.new && (!b.featured || !b.new)) return -1;
         if (!a.featured || !a.new && (b.featured && b.new)) return 1;
@@ -381,6 +381,6 @@ function sortJobs() {
         if (!a.new && b.new) return 1;
 
         return 0;
-    });
-}});
+    });}*/
+}); 
 
