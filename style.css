@@ -12,6 +12,7 @@ opacity: 0;
 
     * {
         font-family: 'League Spartan', sans-serif;
+        font-size: 15px;
        
     }
    
@@ -41,7 +42,7 @@ li,p{
 h3 {
     color: black;
     font-weight: bolder;
-    font-size: larger;
+    font-size: 20px;
 }
 
 h3:hover {
@@ -58,7 +59,7 @@ label#companyTag{
      margin-right: 20px;
 }
 h6.tagDesign{
-font-size: small;
+font-size: 15px;
 }
 label.topTag1{
 
@@ -461,7 +462,7 @@ gap: 5px;
    margin-right: 5px;
     }
    #info .postedInfo{
-        font-size: small;
+        font-size:85%;
       
         
     }
@@ -473,6 +474,9 @@ gap: 5px;
         padding: 6px;
         border-top:1px solid rgb(106, 106, 106);
         
+    }
+    h6.tagDesign{
+font-size: 85%;
     }
     #image{
 
