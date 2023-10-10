@@ -424,6 +424,19 @@ gap: 5px;
 
     
     }
+    #addJob{
+        position: fixed;
+      top: 85%;
+      left: 89%;
+       width: 4%;
+        
+    }
+#addJob img {
+        width: 40px;
+        height:40px;
+     }
+
+  
    .developer .removeJob:hover{
 
         background-color: hsl(180, 29%, 50%) ;
@@ -478,4 +491,4 @@ gap: 5px;
         left:85%;
 
     }
-    }
+}
