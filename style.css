@@ -136,6 +136,8 @@ label.topTag1{
     background-color: hsl(180, 29%, 50%); 
    height: 70%;  
     padding: 20px;
+    justify-content: center;
+    align-items: center;
     
 }
 .submit{
@@ -417,6 +419,13 @@ gap: 5px;
    body{
     font-size:85%;
    }
+   .popupmainDiv{
+    display: block;
+    align-items: center;
+    gap: 5px;
+    padding-top: 0px;
+    margin: 0px;
+    }
    .removeJob{
         position: relative;
         bottom:90%;
